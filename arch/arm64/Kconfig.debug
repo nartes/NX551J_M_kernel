@@ -140,4 +140,7 @@ config DEBUG_ALIGN_RODATA
 
 source "drivers/hwtracing/coresight/Kconfig"
 
+config AARCHX64_GCC_7
+	bool "Enable warnings suppression for aarch64-linux-gnu-gcc 7.*"
+
 endmenu
